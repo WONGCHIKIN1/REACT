@@ -1,0 +1,21 @@
+.myrelease{
+    // background:#ccc;
+    ul{
+        margin-top:0.4rem;
+        border-bottom:1px solid #ccc;
+        position:relative;
+        li{
+            height:0.933333rem;
+            line-height:0.933333rem;
+            span{
+                margin-right:0.4rem;
+            }
+        }
+        i{
+            font-size:0.533333rem;
+            position:absolute;
+            right:0;
+            top:0;
+        }
+    }
+}

@@ -1,0 +1,147 @@
+.goodsorder{
+        background:#F2F2F4;
+    .head{
+        height:1.44rem;
+        line-height:1.44rem;
+        text-align: center;
+        position:relative;
+        background:#fff;
+        span{
+            font-size:0.373333rem;
+        }
+        a{
+            position:absolute;
+            left:0.36rem;
+        }
+    }
+    .head_t{
+        height:2.133333rem;
+        background:#FA9E85;
+        padding-left:0.24rem;
+        position:relative;
+        p{
+            padding-top:0.453333rem;
+            font-size:0.413333rem;
+            line-height:0.813333rem;
+            color:#fff;
+            margin:0;
+        }
+        span{
+            font-size:0.32rem;
+            color:#fff;
+        }
+        i{
+            position:absolute;
+            top:40%;
+            right:0.586667rem;
+            font-size:0.773333rem;
+            color:#fff;
+        }
+    }
+    .head_b{
+        height:0.813333rem;
+        line-height:0.813333rem;
+        padding-left:0.24rem;
+        font-size:0.266667rem;
+        color:#B3B3B3;
+        background:#fff;
+    }
+    .mains{
+        height:13.333333rem;
+        .mains_t{
+            height:1.706667rem;
+            background:#fff;
+            margin:0.24rem 0;
+            .indent{
+                img{
+                    width:1.586667rem;
+                    height:1.16rem;
+                    float:left;
+                    margin:0.266667rem 0.24rem;
+                }
+                .indent_r{
+                    float:left;
+                    margin-top:0.266667rem;
+                    p{
+                        margin:0;
+                        padding-left:0.24rem;
+                    }
+                    p:first-child{
+                        font-size:0.32rem;
+                    }
+                    p:nth-child(2){
+                        font-size:0.24rem;
+                        color:#FC857F;
+                        line-height:0.426667rem;
+                    }
+                    p:last-child{
+                        font-size:0.266667rem;
+                        color:#B5B5B5;
+                    }
+                }
+            }
+        }
+        .mains_c{
+            .mains_c_t{
+                li{
+                    height:1.066667rem;
+                    line-height:1.066667rem;
+                    padding:0 0.253333rem 0 0.213333rem;
+                    background:#fff;
+                    display:flex;
+                    justify-content: space-between;
+                    span{
+                        font-size:0.32rem;
+                    }
+                }
+                li:nth-child(1),li:nth-child(2){
+                    border-bottom:1px solid #ccc;
+                }
+            }
+            .mains_c_b{
+                margin-top:0.213333rem;
+                li:nth-child(2){
+                    border-bottom:0px solid #ccc;
+                }
+                li:nth-child(5){
+                    border-top:1px solid #ccc;
+                }
+                li:nth-child(2),li:nth-child(3),li:nth-child(4){
+                    height:0.72rem;
+                    line-height:0.666667rem;
+                }
+                li:last-child{
+                    height:0.693333rem;
+                    line-height:0.693333rem;
+                    background:#F6F6F6;
+                    font-size:0.24rem;
+                }
+            }
+        }
+        .mains_b_t{
+            height:2.506667rem;
+            padding: 0 0.253333rem 0 0.213333rem;
+            background:#fff;
+            p{
+                height:0.906667rem;
+                line-height:0.906667rem;
+                margin:0;
+                display:flex;
+                justify-content: space-between;
+            }
+        }
+        .main_foot{
+            height:1.306667rem;
+        }
+    }
+    .payment{
+        height:1.333333rem;
+        background:#fff;
+        display:flex;
+        justify-content: space-around;
+        position:fixed;
+        bottom:0; 
+        width:100%;  
+        z-index: 10;
+    }
+}

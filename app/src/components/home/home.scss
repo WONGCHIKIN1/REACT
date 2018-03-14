@@ -1,0 +1,27 @@
+.navgation{
+    position: fixed;
+    bottom: -0.026667rem;
+    width:100%;
+    // z-index:;
+    ul{
+        display:flex;
+        font-size:0.4rem;
+        background:#F9F9F9;
+        a{
+            width:100%;
+            border-top:1px solid #C8C8C8;
+            text-align: center;
+            height:1.306667rem;
+            font-size:0.266667rem;
+            line-height: 0.373333rem;
+            i{
+                font-size:0.533333rem;
+                margin: 0.266667rem auto 0;
+                color:#9C9C9C;
+            }
+            li{
+                color:#9C9C9C;
+            }
+        }
+    }
+}

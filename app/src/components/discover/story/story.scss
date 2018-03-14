@@ -1,0 +1,43 @@
+.story{
+    color:#444;
+    .box{
+        height: 8.8667rem;
+        padding-left: .4rem;
+        border-top: .013333rem solid #ccc;
+        padding-top: .693333rem;
+        img{
+            width: 9.2rem;
+            height: 5.746667rem;
+        }
+        div{
+            height: 1.933333rem;
+            padding-top: .386667rem;
+            span:first-child{
+                display: inline-block;
+                width: 0.693333rem;
+                height: 0.453333rem;
+                font-size: 0.2133rem;
+                color: #fff;
+                background: #FE9A82;
+                text-align: center;
+                line-height: 0.453333rem;
+                border-radius: 0.066667rem;
+                float: left;
+                margin-right: 0.2rem;
+            }
+            p{
+                margin: 0;
+            }
+            p:nth-of-type(2){
+                font-size:0.293333rem;
+                line-height: 1.066667rem;
+                b{
+                    margin-right: 5.6rem;
+                }
+                span{
+                    margin-left:0.133333rem;
+                }
+            }
+        }
+    }
+}

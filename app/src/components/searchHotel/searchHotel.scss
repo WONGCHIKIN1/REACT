@@ -1,0 +1,170 @@
+.searchhotel{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    position:fixed;
+    z-index:10;
+    width:100%;
+    .h_header{
+        display:flex;
+        justify-content:space-between;
+        height:1.2rem;
+        padding-bottom:0.266667rem;
+        border-bottom:none;
+        &>i{
+            color:#D99E96;
+            font-size:0.533333rem;
+            margin-top:0.2rem;
+        }
+        &>i:nth-child(3){
+            margin-right:0;
+        }
+        .search{
+            width:7.733333rem;
+            background:#F6F6F6;
+            border-radius:0.106667rem;
+            font-size:0.32rem;
+            padding:0.133333rem 0;
+            height:0.933333rem;
+            // padding-top:0.066667rem;
+            .location{
+                padding-left:0.266667rem;
+                float:left;
+                margin-top:0.133333rem;
+                input{
+                    width:0.666667rem;
+                    font-size:0.32rem;
+                    background:#F6F6F6;
+                }
+                i{
+                    margin-right:0;
+                    border-right:0.013333rem solid #A9A9A9;
+                }
+            }
+            .find{
+                float:left;
+                padding:0;
+                height:0.666667rem;
+                i{
+                    width:0.266667rem;
+                    padding-left:0.133333rem;
+                    height:0.666667rem;
+                }
+                input{
+                    background:#F6F6F6;
+                }
+            }
+        }
+    }
+    .h_nav{
+        display:flex;
+        justify-content:space-around;
+        margin-top:0.4rem;
+        margin-bottom:0.266667rem;
+        position:relative;
+        .h_sort{
+            position:absolute;
+            width:100%;
+            background:#fff;
+            top:1.2rem;
+            z-index:30; 
+            display:none;           
+            li{
+                border-bottom:0.013333rem solid #ccc;
+                text-align:center;
+                padding:0.266667rem 0;
+                font-size:0.373333rem;
+                color:#ccc;
+            }
+        }
+        dl{
+            text-align:center;
+        }
+        dt{
+            font-size:0.293333rem;
+            color:#8A8A8A;
+            line-height: 0.506667rem;
+        }
+        dd{
+            font-size:0.266667rem;
+            color:#BFBFBF;
+            line-height: 0.48rem;
+        }
+    }
+    .h_main{
+        padding:0.8rem 0.4rem 0;
+        background:#F6F6F6;
+        flex:1;
+        overflow-x:hidden;
+        .hcontent{
+            border-bottom:0.013333rem solid #bbb;
+            // background:#fff;
+            .pic{
+                // height:6.266667rem;
+                // background:#ccc;
+                position:relative;
+                span{
+                    position:absolute;
+                    display:block;
+                    width:1.666667rem;
+                    height:0.96rem;
+                    background:rgba(40,33,25,0.5);
+                    font-size:0.32rem;
+                    color:#fff;
+                    text-align:center;
+                    line-height: 0.96rem;
+                    bottom:0.266667rem;
+                }
+                img{
+                    width:100%;
+                    border-radius:0.133333rem;
+
+                    // float:left;
+                }
+            }
+            dl{
+                dt{
+                    margin:0.333333rem 0;
+                    p{
+                        font-size:0.4rem;
+                        width:6.933333rem;
+                        display:block;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        white-space:nowrap;
+                        margin-bottom:0;
+                        float:left;
+                    }
+                span{
+                        float:right;
+                        color:#F1A99D;
+                        font-weight:900;
+                    }
+                }
+                dd{
+
+                    p{
+                        display:block;
+                        width:7.6rem;
+                        float:left;
+                        font-size:0.293333rem;
+                        color:#ACACAC;
+                    }
+                    span{
+                        float:right;
+                        font-size:0.293333rem;
+                        color:#ACACAC;
+                    }
+                    b{
+                        font-size:0.293333rem;
+                        color:#ACACAC;
+                    }
+                }
+            }
+        }
+        #loading{
+            height:0.426667rem;
+            text-align:center;
+        }
+    }
+}

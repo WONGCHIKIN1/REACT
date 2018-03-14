@@ -1,0 +1,50 @@
+.orderlist{
+    border-top: 0.266667rem solid #EDEDED;
+    background-color: white;
+    dt{
+        padding: 0.173333rem 0.36rem 0.133333rem 0.266667rem;
+        display:flex;
+        justify-content:space-between;
+        border-bottom: 0.013333rem solid #E0E0E0;
+        margin-bottom: 0.4rem;
+        p{
+            width: 5.933333rem;
+            font-size: 0.36rem;
+            // line-height: 0.44rem;
+            color:#898989;
+            font-weight: bold;
+        }
+        span{
+            font-size: 0.346667rem;
+            line-height: 0.8rem;
+            color:#9F9F9F;
+        }
+    }
+    dd{
+        display:flex;
+        padding: 0 0.266667rem 0.4rem;
+        div:nth-child(1){
+            width: 2.133333rem;
+            height: 1.6rem;
+            background:#ccc;
+            img{
+                width:100%;
+            }
+
+        }
+        .o_content{
+            flex:1;
+            padding-left: 0.266667rem;
+            p{
+                font-size: 0.346667rem;
+                line-height: 0.4rem;
+                color:#838383;
+                text-align: left;
+            }
+            p:nth-child(2){
+                display:flex;
+                justify-content:space-between;
+            }
+        }
+    }
+}

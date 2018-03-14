@@ -1,0 +1,42 @@
+.header1{
+    height:5.533333rem;
+    background-color: black;
+    padding-top: 0.4rem;
+    margin-bottom: 0.906667rem;
+    i{
+        display: block;
+        margin-bottom: 3.333333rem;
+    }
+    i,span{
+        color:white;
+        font-size: 0.893333rem;
+    }
+    span{
+        font-size: 0.4rem;
+        display: block;
+        text-align: center;
+    }
+}
+.new{
+    margin-bottom: 1.066667rem;
+    input{
+        border: 0;
+        font-size: 0.413333rem;
+        margin-bottom: 0.24rem;
+    };
+    p{
+        margin-bottom: 0.346667rem;
+        font-size: 0.373333rem;
+    }
+    border-bottom: 0.013rem solid grey;
+}
+.new1{
+    margin-bottom: 1.946667rem;
+}
+.save{
+    width: 100%;
+    background-color: pink;
+    color:white;
+    text-align: center;
+    height: 100px;
+}

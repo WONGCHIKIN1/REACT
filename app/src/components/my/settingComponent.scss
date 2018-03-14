@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+    font-size: 0.466667rem;
+    line-height: 1.186667rem;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 0.906667rem;
+}
+.functionList{
+    font-size: 0.44rem;
+    li{
+        margin-bottom: 0.76rem;
+        p{
+            display:flex;
+            justify-content:space-between;
+            margin: 0.146667rem;
+        }
+        span{
+            color:grey;
+            font-size: 0.293333rem;
+        }
+    }
+}
+.exit{
+    width: 100%;
+    background-color: pink;
+    color:white;
+    text-align: center;
+    height: 100px;
+}

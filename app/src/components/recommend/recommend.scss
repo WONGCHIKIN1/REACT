@@ -1,0 +1,151 @@
+.recommend{
+    padding-left:0.4rem;
+    height:100%;
+    .head{
+        padding-right:0.4rem;
+        font-size:1.4rem;
+        line-height:1.8rem;
+        .where_to_go{
+            height:4.8rem;
+            border-bottom:1px solid #E9E9E9;
+            position:relative;
+            color:#E9E9E9;
+            span{
+                color:#5F6062;
+                font-size:0.626667rem;
+                display:block;
+                position:absolute;
+                top:0;
+                font-weight: bold
+            }
+            .searchs{
+                height:1.013333rem;
+                line-height:1.013333rem;
+                width:2.986667rem;
+                background:#FF9180;
+                font-size:0.346667rem;
+                color:#fff;
+                border-radius:0.493333rem;
+                margin-top:0.773333rem;
+                i{
+                    color:#fff;
+                    margin-left:0.24rem;
+                }
+            }
+        } 
+    }
+    .searchNav{
+        height:1.093333rem;
+        line-height:1.093333rem;
+        display:none;
+        position:fixed;
+        top:-1.093333rem;
+        left:-0.013333rem;
+        background:#fff;
+        width:100%;
+        z-index:20;
+        padding-left:0;
+        i{
+            font-size:0.466667rem;
+            margin-left: 0.346667rem;
+        }
+        span{
+            font-size:0.466667rem;
+            color:#969696;
+        }
+    }
+    .mains{
+        .rooms{
+            .photos{
+                width:100%;
+                overflow-y:hidden;
+            }
+            .photos>ul{
+                height:5.786667rem;
+                width:37.733333rem;
+                li{
+                    width:9.2rem;
+                    height:5.786667rem;
+                    float:left;
+                    margin-right:0.213333rem;
+                }
+            }
+            span{
+                margin-top:0.4rem;
+                line-height:1.253333rem;
+                font-size:0.453333rem;
+                font-weight: bold;
+            }
+            .parting_line{
+                margin-right:0.4rem;
+                height:0.746667rem;
+                line-height:0.746667rem;
+                border-bottom:1px solid #E9E9E9;
+                font-size:0.293333rem;
+            }
+            .parting{
+                height:1.466667rem;
+                line-height:1.466667rem;
+                font-size:0.373333rem;
+            }
+            .citys{
+                height:2.6rem;
+                padding-top: 0.4rem;
+                li{
+                    float:left;
+                    width:1.84rem;
+                    font-size:0.4rem;
+                    text-align: center;
+                    line-height: 0.933333rem;
+                    height: 0.933333rem;
+                    a{
+                        color:#606062;
+                    }
+                }
+            }
+            .credit{
+                .credit_t{
+                    margin-top:0.666667rem;
+                    ul{
+                        display:flex;
+                        li{
+                            flex:1;
+                            text-align: center;
+                            p{
+                                font-size:0.32rem;
+                                font-weight: bold;
+                                line-height: 96px;
+                            }
+                            li:nth-child(2) p{
+                                text-align: center;
+                            }
+                        }
+                        
+                    }
+                    p{
+                        line-height:0.933333rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .strategy{
+            ul{
+                display:flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+    
+}
+.foots{
+    height:1.306667rem;
+}
+.pitch_on{
+    border-bottom:5px solid #F48C81;
+    color:#F48C81 !important;
+}
+.parting_b{
+    padding-top:0.946667rem;
+    border-top:3px solid #E9E9E9;
+}
